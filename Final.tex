@@ -1015,4 +1015,220 @@ This experiment demonstrates that wavelet-based denoising effectively suppresses
   \label{fig:wavelet_denoising}
 \end{figure}
 
+\newpage
+\section*{Experiment Number: 17}
+\section{Edge Detection Techniques}
+
+\subsection{Brief Description about the Theory}
+Edge detection is a fundamental technique in image processing that identifies points in an image where brightness changes sharply. These points typically represent object boundaries and are crucial for feature extraction and image segmentation. This experiment implements various edge detection methods, each with unique characteristics and applications.
+
+\subsection{Technical Background}
+The experiment implements four main edge detection approaches:
+
+\begin{itemize}
+  \item \textbf{Laplacian Operator:}
+    \begin{itemize}
+      \item Second-order derivative operator
+      \item Detects edges by finding zero crossings
+      \item Sensitive to noise but provides good edge localization
+      \item Formula: \(\nabla^2 f(x,y) = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2}\)
+    \end{itemize}
+
+  \item \textbf{Sobel Operator:}
+    \begin{itemize}
+      \item First-order derivative operator
+      \item Uses two \(3 \times 3\) kernels for horizontal and vertical edges
+      \item Less sensitive to noise than Laplacian
+      \item Provides edge direction information
+    \end{itemize}
+
+  \item \textbf{Canny Edge Detection:}
+    \begin{itemize}
+      \item Multi-stage algorithm combining Gaussian smoothing and gradient detection
+      \item Uses non-maximum suppression and hysteresis thresholding
+      \item Produces thin, connected edges
+      \item Most robust to noise among the implemented methods
+    \end{itemize}
+
+  \item \textbf{Derivative of Gaussian (DoG):}
+    \begin{itemize}
+      \item Combines Gaussian smoothing with derivative operation
+      \item Reduces noise while preserving edge information
+      \item Can be implemented in both 1D and 2D forms
+    \end{itemize}
+\end{itemize}
+
+\subsection{Implementation Details}
+The experiment follows these key steps:
+
+\subsubsection{Image Preprocessing}
+\begin{itemize}
+  \item Convert input image to grayscale
+  \item Normalize pixel values to [0, 1] range
+  \item Apply necessary resizing for consistent processing
+\end{itemize}
+
+\subsubsection{Edge Detection Methods}
+\begin{enumerate}
+  \item \textbf{Laplacian Edge Detection:}
+    \begin{itemize}
+      \item Apply Laplacian operator using OpenCV's \texttt{cv2.Laplacian}
+      \item Use \texttt{CV\_64F} for floating-point precision
+    \end{itemize}
+
+  \item \textbf{Sobel Edge Detection:}
+    \begin{itemize}
+      \item Apply separate Sobel operators for x and y directions
+      \item Use kernel size of 3 for optimal edge detection
+      \item Combine results for comprehensive edge detection
+    \end{itemize}
+
+  \item \textbf{Canny Edge Detection:}
+    \begin{itemize}
+      \item Apply Gaussian smoothing
+      \item Compute gradient magnitude and direction
+      \item Use non-maximum suppression
+      \item Apply double thresholding (100, 200)
+    \end{itemize}
+
+  \item \textbf{Derivative of Gaussian:}
+    \begin{itemize}
+      \item Generate 1D Gaussian kernel
+      \item Compute derivative of Gaussian
+      \item Apply in both x and y directions
+      \item Combine results for 2D edge detection
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Results and Inferences}
+The experiment demonstrates that different edge detection methods have varying strengths:
+\begin{itemize}
+  \item Laplacian provides precise edge localization but is sensitive to noise
+  \item Sobel operator offers good balance between noise reduction and edge detection
+  \item Canny edge detection produces the cleanest and most connected edges
+  \item Derivative of Gaussian effectively combines smoothing with edge detection
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{edge_detection/basic_edge_detection.png}
+    \caption{Basic Edge Detection (Laplacian and Sobel)}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{edge_detection/canny_edges.png}
+    \caption{Canny Edge Detection}
+  \end{subfigure}
+  \vspace{1em}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{edge_detection/derivative_of_gaussian.png}
+    \caption{Derivative of Gaussian}
+  \end{subfigure}
+  \caption{Edge Detection Results}
+  \label{fig:edge_detection}
+\end{figure}
+
+\newpage
+\section*{Experiment Number: 18}
+\section{Image Restoration Techniques}
+
+\subsection{Brief Description about the Theory}
+Image restoration aims to recover an original image from its degraded version. This experiment implements and compares different restoration techniques, focusing on inverse filtering and Wiener filtering. The degradation model assumes a combination of blur and additive noise, represented by the equation:
+
+\[
+  g(x,y) = f(x,y) * h(x,y) + n(x,y)
+\]
+
+where:
+\begin{itemize}
+  \item \(g(x,y)\) is the degraded image
+  \item \(f(x,y)\) is the original image
+  \item \(h(x,y)\) is the point spread function (PSF)
+  \item \(n(x,y)\) is additive noise
+  \item \(*\) denotes convolution
+\end{itemize}
+
+\subsection{Technical Background}
+The experiment implements two main restoration approaches:
+
+\begin{itemize}
+  \item \textbf{Inverse Filtering:}
+    \begin{itemize}
+      \item Direct inversion of the degradation process
+      \item Formula: \(F(u,v) = G(u,v)/H(u,v)\)
+      \item Sensitive to noise and zero-crossings in \(H(u,v)\)
+      \item Requires thresholding to avoid division by small values
+    \end{itemize}
+
+  \item \textbf{Wiener Filtering:}
+    \begin{itemize}
+      \item Statistical approach minimizing mean square error
+      \item Formula: \(F(u,v) = \left[\frac{H^*(u,v)}{|H(u,v)|^2 + K}\right]G(u,v)\)
+      \item More robust to noise than inverse filtering
+      \item \(K\) parameter controls noise-to-signal ratio
+    \end{itemize}
+\end{itemize}
+
+\subsection{Implementation Details}
+The experiment follows these key steps:
+
+\subsubsection{Image Degradation}
+\begin{enumerate}
+  \item \textbf{Gaussian Blur:}
+    \begin{itemize}
+      \item Create Gaussian kernel with \(\sigma = 1.5\)
+      \item Apply convolution for blurring
+    \end{itemize}
+
+  \item \textbf{Noise Addition:}
+    \begin{itemize}
+      \item Add Gaussian noise with \(\sigma = 10^{-4}\)
+      \item Clip values to maintain valid range [0, 1]
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Restoration Methods}
+\begin{enumerate}
+  \item \textbf{Inverse Filtering:}
+    \begin{itemize}
+      \item Pad kernel to match image dimensions
+      \item Apply FFT to image and kernel
+      \item Implement thresholding (0.01) to avoid division by zero
+      \item Perform inverse filtering in frequency domain
+      \item Apply inverse FFT to obtain restored image
+    \end{itemize}
+
+  \item \textbf{Wiener Filtering:}
+    \begin{itemize}
+      \item Compute complex conjugate of kernel FFT
+      \item Calculate denominator with noise-to-signal ratio \(K = 10^{-6}\)
+      \item Apply Wiener filter in frequency domain
+      \item Transform back to spatial domain
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Quality Assessment}
+\begin{itemize}
+  \item Calculate PSNR for degraded and restored images
+  \item Compute mean and standard deviation of pixel values
+  \item Generate visual comparisons of results
+\end{itemize}
+
+\subsection{Results and Inferences}
+The experiment demonstrates that:
+\begin{itemize}
+  \item Wiener filtering (PSNR: 8.79 dB) performs better than inverse filtering (PSNR: 8.29 dB)
+  \item Both methods successfully reduce blur but introduce some artifacts
+  \item The degraded image maintains original mean (0.4408) but has reduced standard deviation (0.1633)
+  \item Restored images show different statistical properties, indicating the trade-off between restoration and noise amplification
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{image_restoration/restoration_comparison.png}
+  \caption{Image Restoration Results}
+  \label{fig:image_restoration}
+\end{figure}
+
 \end{document}

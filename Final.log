@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  12 MAR 2025 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  9 APR 2025 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -386,300 +386,336 @@ Package caption Info: End \AtBeginDocument code.
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2])
+[2]
+
+[3])
 \tf@toc=\write4
 \openout4 = `Final.toc'.
 
 
 
-[3]
-<output/eye_detection/eye_detection_result.jpg, id=619, 628.3475pt x 418.56375pt>
+[4]
+<output/eye_detection/eye_detection_result.jpg, id=699, 628.3475pt x 418.56375pt>
 File: output/eye_detection/eye_detection_result.jpg Graphic file (type jpg)
 <use output/eye_detection/eye_detection_result.jpg>
 Package pdftex.def Info: output/eye_detection/eye_detection_result.jpg  used on input line 76.
 (pdftex.def)             Requested size: 338.5863pt x 225.54204pt.
 
 
-[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[5{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[5 <./output/eye_detection/eye_detection_result.jpg>]
-<output/transformations/translated.jpg, id=634, 730.73pt x 411.5375pt>
+[6 <./output/eye_detection/eye_detection_result.jpg>]
+<output/transformations/translated.jpg, id=714, 730.73pt x 411.5375pt>
 File: output/transformations/translated.jpg Graphic file (type jpg)
 <use output/transformations/translated.jpg>
 Package pdftex.def Info: output/transformations/translated.jpg  used on input line 110.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
-<output/transformations/rotated.jpg, id=635, 730.73pt x 411.5375pt>
+<output/transformations/rotated.jpg, id=715, 730.73pt x 411.5375pt>
 File: output/transformations/rotated.jpg Graphic file (type jpg)
 <use output/transformations/rotated.jpg>
 Package pdftex.def Info: output/transformations/rotated.jpg  used on input line 115.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
-<output/transformations/scaled.jpg, id=636, 1096.095pt x 617.30624pt>
+<output/transformations/scaled.jpg, id=716, 1096.095pt x 617.30624pt>
 File: output/transformations/scaled.jpg Graphic file (type jpg)
 <use output/transformations/scaled.jpg>
 Package pdftex.def Info: output/transformations/scaled.jpg  used on input line 120.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
-<output/transformations/affine.jpg, id=637, 730.73pt x 411.5375pt>
+<output/transformations/affine.jpg, id=717, 730.73pt x 411.5375pt>
 File: output/transformations/affine.jpg Graphic file (type jpg)
 <use output/transformations/affine.jpg>
 Package pdftex.def Info: output/transformations/affine.jpg  used on input line 125.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
 
 
-[6]
+[7]
 
-[7 <./output/transformations/translated.jpg> <./output/transformations/rotated.jpg> <./output/transformations/scaled.jpg> <./output/transformations/affine.jpg>]
-<output/grayscale/grayscale_custom.png, id=652, 730.73pt x 411.5375pt>
+[8 <./output/transformations/translated.jpg> <./output/transformations/rotated.jpg> <./output/transformations/scaled.jpg> <./output/transformations/affine.jpg>]
+<output/grayscale/grayscale_custom.png, id=732, 730.73pt x 411.5375pt>
 File: output/grayscale/grayscale_custom.png Graphic file (type png)
 <use output/grayscale/grayscale_custom.png>
 Package pdftex.def Info: output/grayscale/grayscale_custom.png  used on input line 186.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
-<output/grayscale/grayscale_opencv.jpg, id=653, 730.73pt x 411.5375pt>
+<output/grayscale/grayscale_opencv.jpg, id=733, 730.73pt x 411.5375pt>
 File: output/grayscale/grayscale_opencv.jpg Graphic file (type jpg)
 <use output/grayscale/grayscale_opencv.jpg>
 Package pdftex.def Info: output/grayscale/grayscale_opencv.jpg  used on input line 192.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
 
 
-[8]
+[9]
 
-[9 <./output/grayscale/grayscale_custom.png> <./output/grayscale/grayscale_opencv.jpg>]
-<output/intensity/reduced_8bit.jpg, id=669, 730.73pt x 411.5375pt>
+[10 <./output/grayscale/grayscale_custom.png> <./output/grayscale/grayscale_opencv.jpg>]
+<output/intensity/reduced_8bit.jpg, id=748, 730.73pt x 411.5375pt>
 File: output/intensity/reduced_8bit.jpg Graphic file (type jpg)
 <use output/intensity/reduced_8bit.jpg>
 Package pdftex.def Info: output/intensity/reduced_8bit.jpg  used on input line 249.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
-<output/intensity/reduced_4bit.jpg, id=670, 730.73pt x 411.5375pt>
+<output/intensity/reduced_4bit.jpg, id=749, 730.73pt x 411.5375pt>
 File: output/intensity/reduced_4bit.jpg Graphic file (type jpg)
 <use output/intensity/reduced_4bit.jpg>
 Package pdftex.def Info: output/intensity/reduced_4bit.jpg  used on input line 255.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
 
 
-[10]
+[11]
 
-[11 <./output/intensity/reduced_8bit.jpg> <./output/intensity/reduced_4bit.jpg>]
-<output/spatial/spatial_reduced_100percent.jpg, id=685, 730.73pt x 411.5375pt>
+[12 <./output/intensity/reduced_8bit.jpg> <./output/intensity/reduced_4bit.jpg>]
+<output/spatial/spatial_reduced_100percent.jpg, id=764, 730.73pt x 411.5375pt>
 File: output/spatial/spatial_reduced_100percent.jpg Graphic file (type jpg)
 <use output/spatial/spatial_reduced_100percent.jpg>
 Package pdftex.def Info: output/spatial/spatial_reduced_100percent.jpg  used on input line 303.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
-<output/spatial/spatial_reduced_25percent.jpg, id=686, 730.73pt x 411.5375pt>
+<output/spatial/spatial_reduced_25percent.jpg, id=765, 730.73pt x 411.5375pt>
 File: output/spatial/spatial_reduced_25percent.jpg Graphic file (type jpg)
 <use output/spatial/spatial_reduced_25percent.jpg>
 Package pdftex.def Info: output/spatial/spatial_reduced_25percent.jpg  used on input line 311.
 (pdftex.def)             Requested size: 154.78653pt x 87.17268pt.
-<output/spatial/spatial_reduced_50percent.jpg, id=687, 730.73pt x 411.5375pt>
+<output/spatial/spatial_reduced_50percent.jpg, id=766, 730.73pt x 411.5375pt>
 File: output/spatial/spatial_reduced_50percent.jpg Graphic file (type jpg)
 <use output/spatial/spatial_reduced_50percent.jpg>
 Package pdftex.def Info: output/spatial/spatial_reduced_50percent.jpg  used on input line 317.
 (pdftex.def)             Requested size: 154.78653pt x 87.17268pt.
-<output/spatial/spatial_reduced_75percent.jpg, id=688, 730.73pt x 411.5375pt>
+<output/spatial/spatial_reduced_75percent.jpg, id=767, 730.73pt x 411.5375pt>
 File: output/spatial/spatial_reduced_75percent.jpg Graphic file (type jpg)
 <use output/spatial/spatial_reduced_75percent.jpg>
 Package pdftex.def Info: output/spatial/spatial_reduced_75percent.jpg  used on input line 323.
 (pdftex.def)             Requested size: 154.78653pt x 87.17268pt.
 
 
-[12]
+[13]
 
-[13 <./output/spatial/spatial_reduced_100percent.jpg> <./output/spatial/spatial_reduced_25percent.jpg> <./output/spatial/spatial_reduced_50percent.jpg> <./output/spatial/spatial_reduced_75percent.jpg>]
+[14 <./output/spatial/spatial_reduced_100percent.jpg> <./output/spatial/spatial_reduced_25percent.jpg> <./output/spatial/spatial_reduced_50percent.jpg> <./output/spatial/spatial_reduced_75percent.jpg>]
 
-[14]
-<output/interpolation/interpolation_nearest_2x.jpg, id=708, 1461.46pt x 823.075pt>
+[15]
+<output/interpolation/interpolation_nearest_2x.jpg, id=788, 1461.46pt x 823.075pt>
 File: output/interpolation/interpolation_nearest_2x.jpg Graphic file (type jpg)
 <use output/interpolation/interpolation_nearest_2x.jpg>
 Package pdftex.def Info: output/interpolation/interpolation_nearest_2x.jpg  used on input line 387.
 (pdftex.def)             Requested size: 217.6621pt x 122.57678pt.
-<output/interpolation/interpolation_bilinear_2x.jpg, id=709, 1461.46pt x 823.075pt>
+<output/interpolation/interpolation_bilinear_2x.jpg, id=789, 1461.46pt x 823.075pt>
 File: output/interpolation/interpolation_bilinear_2x.jpg Graphic file (type jpg)
 <use output/interpolation/interpolation_bilinear_2x.jpg>
 Package pdftex.def Info: output/interpolation/interpolation_bilinear_2x.jpg  used on input line 392.
 (pdftex.def)             Requested size: 217.6621pt x 122.57678pt.
-<output/interpolation/interpolation_bicubic_2x.jpg, id=710, 1461.46pt x 823.075pt>
+<output/interpolation/interpolation_bicubic_2x.jpg, id=790, 1461.46pt x 823.075pt>
 File: output/interpolation/interpolation_bicubic_2x.jpg Graphic file (type jpg)
 <use output/interpolation/interpolation_bicubic_2x.jpg>
 Package pdftex.def Info: output/interpolation/interpolation_bicubic_2x.jpg  used on input line 397.
 (pdftex.def)             Requested size: 217.6621pt x 122.57678pt.
-<output/interpolation/interpolation_lanczos_2x.jpg, id=711, 1461.46pt x 823.075pt>
+<output/interpolation/interpolation_lanczos_2x.jpg, id=791, 1461.46pt x 823.075pt>
 File: output/interpolation/interpolation_lanczos_2x.jpg Graphic file (type jpg)
 <use output/interpolation/interpolation_lanczos_2x.jpg>
 Package pdftex.def Info: output/interpolation/interpolation_lanczos_2x.jpg  used on input line 402.
 (pdftex.def)             Requested size: 217.6621pt x 122.57678pt.
 
 
-[15 <./output/interpolation/interpolation_nearest_2x.jpg> <./output/interpolation/interpolation_bilinear_2x.jpg> <./output/interpolation/interpolation_bicubic_2x.jpg> <./output/interpolation/interpolation_lanczos_2x.jpg>]
-<output/blurring/box_blur_15x15.jpg, id=717, 730.73pt x 411.5375pt>
+[16 <./output/interpolation/interpolation_nearest_2x.jpg> <./output/interpolation/interpolation_bilinear_2x.jpg> <./output/interpolation/interpolation_bicubic_2x.jpg> <./output/interpolation/interpolation_lanczos_2x.jpg>]
+<output/blurring/box_blur_15x15.jpg, id=797, 730.73pt x 411.5375pt>
 File: output/blurring/box_blur_15x15.jpg Graphic file (type jpg)
 <use output/blurring/box_blur_15x15.jpg>
 Package pdftex.def Info: output/blurring/box_blur_15x15.jpg  used on input line 459.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
-<output/blurring/motion_blur_45deg.jpg, id=718, 730.73pt x 411.5375pt>
+<output/blurring/motion_blur_45deg.jpg, id=798, 730.73pt x 411.5375pt>
 File: output/blurring/motion_blur_45deg.jpg Graphic file (type jpg)
 <use output/blurring/motion_blur_45deg.jpg>
 Package pdftex.def Info: output/blurring/motion_blur_45deg.jpg  used on input line 464.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
-<output/blurring/gaussian_blur_15x15.jpg, id=719, 730.73pt x 411.5375pt>
+<output/blurring/gaussian_blur_15x15.jpg, id=799, 730.73pt x 411.5375pt>
 File: output/blurring/gaussian_blur_15x15.jpg Graphic file (type jpg)
 <use output/blurring/gaussian_blur_15x15.jpg>
 Package pdftex.def Info: output/blurring/gaussian_blur_15x15.jpg  used on input line 469.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
-<output/blurring/focus_blur_r100.jpg, id=720, 730.73pt x 411.5375pt>
+<output/blurring/focus_blur_r100.jpg, id=800, 730.73pt x 411.5375pt>
 File: output/blurring/focus_blur_r100.jpg Graphic file (type jpg)
 <use output/blurring/focus_blur_r100.jpg>
 Package pdftex.def Info: output/blurring/focus_blur_r100.jpg  used on input line 474.
 (pdftex.def)             Requested size: 217.6621pt x 122.58305pt.
 
 
-[16]
+[17]
 
-[17 <./output/blurring/box_blur_15x15.jpg> <./output/blurring/motion_blur_45deg.jpg> <./output/blurring/gaussian_blur_15x15.jpg> <./output/blurring/focus_blur_r100.jpg>]
+[18 <./output/blurring/box_blur_15x15.jpg> <./output/blurring/motion_blur_45deg.jpg> <./output/blurring/gaussian_blur_15x15.jpg> <./output/blurring/focus_blur_r100.jpg>]
 
-[18]
-<output/histogram/histogram_equalized.jpg, id=745, 730.73pt x 411.5375pt>
+[19]
+<output/histogram/histogram_equalized.jpg, id=826, 730.73pt x 411.5375pt>
 File: output/histogram/histogram_equalized.jpg Graphic file (type jpg)
 <use output/histogram/histogram_equalized.jpg>
 Package pdftex.def Info: output/histogram/histogram_equalized.jpg  used on input line 543.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
-<output/histogram/adaptive_hist_clip2_grid8x8.jpg, id=746, 730.73pt x 411.5375pt>
+<output/histogram/adaptive_hist_clip2_grid8x8.jpg, id=827, 730.73pt x 411.5375pt>
 File: output/histogram/adaptive_hist_clip2_grid8x8.jpg Graphic file (type jpg)
 <use output/histogram/adaptive_hist_clip2_grid8x8.jpg>
 Package pdftex.def Info: output/histogram/adaptive_hist_clip2_grid8x8.jpg  used on input line 549.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
 
 
-[19 <./output/histogram/histogram_equalized.jpg> <./output/histogram/adaptive_hist_clip2_grid8x8.jpg>]
+[20 <./output/histogram/histogram_equalized.jpg> <./output/histogram/adaptive_hist_clip2_grid8x8.jpg>]
 
-[20]
-<output/freq_box/box_filtered.jpg, id=763, 730.73pt x 411.5375pt>
+[21]
+<output/freq_box/box_filtered.jpg, id=842, 730.73pt x 411.5375pt>
 File: output/freq_box/box_filtered.jpg Graphic file (type jpg)
 <use output/freq_box/box_filtered.jpg>
 Package pdftex.def Info: output/freq_box/box_filtered.jpg  used on input line 604.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
 
 
-[21 <./output/freq_box/box_filtered.jpg>]
+[22 <./output/freq_box/box_filtered.jpg>]
 Overfull \hbox (3.21487pt too wide) in paragraph at lines 619--620
 []\OT1/cmr/m/n/12 A Gaus-sian fil-ter is de-signed to sup-press high-frequency noise while re-tain-ing low-frequency
  []
 
 
 
-[22]
-<output/freq_gaussian/gaussian_filtered_sigma10.jpg, id=774, 730.73pt x 411.5375pt>
+[23]
+<output/freq_gaussian/gaussian_filtered_sigma10.jpg, id=853, 730.73pt x 411.5375pt>
 File: output/freq_gaussian/gaussian_filtered_sigma10.jpg Graphic file (type jpg)
 <use output/freq_gaussian/gaussian_filtered_sigma10.jpg>
 Package pdftex.def Info: output/freq_gaussian/gaussian_filtered_sigma10.jpg  used on input line 660.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
 
 
-[23 <./output/freq_gaussian/gaussian_filtered_sigma10.jpg>]
+[24 <./output/freq_gaussian/gaussian_filtered_sigma10.jpg>]
 
-[24]
-<output/freq_random/random_filtered_d50_s10.jpg, id=785, 730.73pt x 411.5375pt>
+[25]
+<output/freq_random/random_filtered_d50_s10.jpg, id=865, 730.73pt x 411.5375pt>
 File: output/freq_random/random_filtered_d50_s10.jpg Graphic file (type jpg)
 <use output/freq_random/random_filtered_d50_s10.jpg>
 Package pdftex.def Info: output/freq_random/random_filtered_d50_s10.jpg  used on input line 712.
 (pdftex.def)             Requested size: 386.95894pt x 217.93173pt.
 
 
-[25 <./output/freq_random/random_filtered_d50_s10.jpg>]
-<output/dct/dct_coefficients.png, id=792, 722.7pt x 289.08pt>
+[26 <./output/freq_random/random_filtered_d50_s10.jpg>]
+<output/dct/dct_coefficients.png, id=872, 722.7pt x 289.08pt>
 File: output/dct/dct_coefficients.png Graphic file (type png)
 <use output/dct/dct_coefficients.png>
 Package pdftex.def Info: output/dct/dct_coefficients.png  used on input line 759.
 (pdftex.def)             Requested size: 338.5863pt x 135.43533pt.
 
 
-[26]
+[27]
 
-[27 <./output/dct/dct_coefficients.png>]
-<output/sequence_energy/sequence_energy.png, id=805, 722.7pt x 289.08pt>
+[28 <./output/dct/dct_coefficients.png>]
+<output/sequence_energy/sequence_energy.png, id=885, 722.7pt x 289.08pt>
 File: output/sequence_energy/sequence_energy.png Graphic file (type png)
 <use output/sequence_energy/sequence_energy.png>
 Package pdftex.def Info: output/sequence_energy/sequence_energy.png  used on input line 810.
 (pdftex.def)             Requested size: 338.5863pt x 135.43533pt.
 
 
-[28]
+[29]
 
-[29 <./output/sequence_energy/sequence_energy.png>]
-<output/dct/original_sequence.png, id=817, 722.7pt x 289.08pt>
+[30 <./output/sequence_energy/sequence_energy.png>]
+<output/dct/original_sequence.png, id=897, 722.7pt x 289.08pt>
 File: output/dct/original_sequence.png Graphic file (type png)
 <use output/dct/original_sequence.png>
 Package pdftex.def Info: output/dct/original_sequence.png  used on input line 860.
 (pdftex.def)             Requested size: 338.5863pt x 135.43533pt.
-<output/dct/reconstruction_100percent.png, id=818, 722.7pt x 289.08pt>
+<output/dct/reconstruction_100percent.png, id=898, 722.7pt x 289.08pt>
 File: output/dct/reconstruction_100percent.png Graphic file (type png)
 <use output/dct/reconstruction_100percent.png>
 Package pdftex.def Info: output/dct/reconstruction_100percent.png  used on input line 865.
 (pdftex.def)             Requested size: 338.5863pt x 135.43533pt.
 
 
-[30]
+[31]
 
-[31 <./output/dct/original_sequence.png> <./output/dct/reconstruction_100percent.png>]
-<output/wavelet/decomposition.png, id=833, 722.7pt x 722.7pt>
+[32 <./output/dct/original_sequence.png> <./output/dct/reconstruction_100percent.png>]
+<output/wavelet/decomposition.png, id=912, 722.7pt x 722.7pt>
 File: output/wavelet/decomposition.png Graphic file (type png)
 <use output/wavelet/decomposition.png>
 Package pdftex.def Info: output/wavelet/decomposition.png  used on input line 916.
 (pdftex.def)             Requested size: 386.95894pt x 386.95496pt.
 
 
-[32]
+[33]
 
-[33 <./output/wavelet/decomposition.png>]
+[34 <./output/wavelet/decomposition.png>]
 
-[34]
-<output/wavelet/coefficients_before.png, id=855, 722.7pt x 722.7pt>
+[35]
+<output/wavelet/coefficients_before.png, id=934, 722.7pt x 722.7pt>
 File: output/wavelet/coefficients_before.png Graphic file (type png)
 <use output/wavelet/coefficients_before.png>
 Package pdftex.def Info: output/wavelet/coefficients_before.png  used on input line 991.
 (pdftex.def)             Requested size: 232.17241pt x 232.17297pt.
-<output/wavelet/coefficients_method1.png, id=856, 722.7pt x 722.7pt>
+<output/wavelet/coefficients_method1.png, id=935, 722.7pt x 722.7pt>
 File: output/wavelet/coefficients_method1.png Graphic file (type png)
 <use output/wavelet/coefficients_method1.png>
 Package pdftex.def Info: output/wavelet/coefficients_method1.png  used on input line 996.
 (pdftex.def)             Requested size: 232.17241pt x 232.17297pt.
-<output/wavelet/coefficients_method2.png, id=857, 722.7pt x 722.7pt>
+<output/wavelet/coefficients_method2.png, id=936, 722.7pt x 722.7pt>
 File: output/wavelet/coefficients_method2.png Graphic file (type png)
 <use output/wavelet/coefficients_method2.png>
 Package pdftex.def Info: output/wavelet/coefficients_method2.png  used on input line 1001.
 (pdftex.def)             Requested size: 232.17241pt x 232.17297pt.
-<output/wavelet/denoised_comparison.png, id=858, 1084.05pt x 361.35pt>
+<output/wavelet/denoised_comparison.png, id=937, 1084.05pt x 361.35pt>
 File: output/wavelet/denoised_comparison.png Graphic file (type png)
 <use output/wavelet/denoised_comparison.png>
 Package pdftex.def Info: output/wavelet/denoised_comparison.png  used on input line 1006.
 (pdftex.def)             Requested size: 232.17241pt x 77.38547pt.
-<output/wavelet/psnr_comparison.png, id=859, 578.16pt x 361.35pt>
+<output/wavelet/psnr_comparison.png, id=938, 578.16pt x 361.35pt>
 File: output/wavelet/psnr_comparison.png Graphic file (type png)
 <use output/wavelet/psnr_comparison.png>
 Package pdftex.def Info: output/wavelet/psnr_comparison.png  used on input line 1011.
 (pdftex.def)             Requested size: 232.17241pt x 145.10535pt.
 
 
-[35]
+[36]
 
-[36 <./output/wavelet/coefficients_before.png> <./output/wavelet/coefficients_method1.png> <./output/wavelet/coefficients_method2.png> <./output/wavelet/denoised_comparison.png> <./output/wavelet/psnr_comparison.png>] (./Final.aux)
+[37 <./output/wavelet/coefficients_before.png> <./output/wavelet/coefficients_method1.png> <./output/wavelet/coefficients_method2.png> <./output/wavelet/denoised_comparison.png> <./output/wavelet/psnr_comparison.png>]
+
+[38]
+<output/edge_detection/basic_edge_detection.png, id=963, 867.24pt x 867.24pt>
+File: output/edge_detection/basic_edge_detection.png Graphic file (type png)
+<use output/edge_detection/basic_edge_detection.png>
+Package pdftex.def Info: output/edge_detection/basic_edge_detection.png  used on input line 1115.
+(pdftex.def)             Requested size: 217.6621pt x 217.65637pt.
+<output/edge_detection/canny_edges.png, id=964, 578.16pt x 578.16pt>
+File: output/edge_detection/canny_edges.png Graphic file (type png)
+<use output/edge_detection/canny_edges.png>
+Package pdftex.def Info: output/edge_detection/canny_edges.png  used on input line 1120.
+(pdftex.def)             Requested size: 217.6621pt x 217.65637pt.
+<output/edge_detection/derivative_of_gaussian.png, id=965, 867.24pt x 867.24pt>
+File: output/edge_detection/derivative_of_gaussian.png Graphic file (type png)
+<use output/edge_detection/derivative_of_gaussian.png>
+Package pdftex.def Info: output/edge_detection/derivative_of_gaussian.png  used on input line 1125.
+(pdftex.def)             Requested size: 217.6621pt x 217.65637pt.
+
+
+[39]
+
+[40 <./output/edge_detection/basic_edge_detection.png> <./output/edge_detection/canny_edges.png> <./output/edge_detection/derivative_of_gaussian.png>]
+
+[41]
+<output/image_restoration/restoration_comparison.png, id=988, 867.24pt x 722.7pt>
+File: output/image_restoration/restoration_comparison.png Graphic file (type png)
+<use output/image_restoration/restoration_comparison.png>
+Package pdftex.def Info: output/image_restoration/restoration_comparison.png  used on input line 1229.
+(pdftex.def)             Requested size: 386.95894pt x 322.46614pt.
+
+
+[42]
+
+[43 <./output/image_restoration/restoration_comparison.png>] (./Final.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Final.out' has not changed.
-(rerunfilecheck)             Checksum: A228F28EE9432A43BCAAC3E0A1B18774;22633.
+(rerunfilecheck)             Checksum: 116F49A84BD600B4EA1E01EF7C99748E;25366.
  ) 
 Here is how much of TeX's memory you used:
- 13186 strings out of 473190
- 216896 string characters out of 5715800
- 619430 words of memory out of 5000000
- 36098 multiletter control sequences out of 15000+600000
+ 13273 strings out of 473190
+ 219432 string characters out of 5715800
+ 619556 words of memory out of 5000000
+ 36151 multiletter control sequences out of 15000+600000
  566277 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,511b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Final.pdf (36 pages, 5090431 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Final.pdf (43 pages, 6821176 bytes).
 PDF statistics:
- 988 PDF objects out of 1000 (max. 8388607)
- 865 compressed objects within 9 object streams
- 216 named destinations out of 1000 (max. 500000)
- 1133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 989 compressed objects within 10 object streams
+ 250 named destinations out of 1000 (max. 500000)
+ 1273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
